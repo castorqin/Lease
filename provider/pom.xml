@@ -8,15 +8,20 @@
         <version>2.4.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.ccw.lease.provicer</groupId>
-    <artifactId>provicer</artifactId>
+    <groupId>com.ccw.lease.provider</groupId>
+    <artifactId>provider</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>provicer</name>
+    <name>provider</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>com.ccw.lease.service</groupId>
+            <artifactId>service</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>

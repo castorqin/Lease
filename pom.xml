@@ -13,10 +13,10 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>lease</name>
     <description>Demo project for Spring Boot</description>
-    <packaging>pom</packaging>
     <properties>
         <java.version>1.8</java.version>
     </properties>
+    <packaging>pom</packaging>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -57,11 +57,11 @@
     </dependencies>
     <modules>
 <!--        主要存放接口还有实体-->
-        <module>api</module>
+        <module>service</module>
 <!--        服务消费者-->
         <module>consumer</module>
         <!--        服务提供者-->
-        <module>provicer</module>
+        <module>provider</module>
     </modules>
     <build>
         <plugins>
