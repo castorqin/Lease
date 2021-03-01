@@ -1,4 +1,4 @@
-package com.ccw.lease.api;
+package com.ccw.lease.service;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

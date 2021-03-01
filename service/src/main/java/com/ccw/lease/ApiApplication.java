@@ -1,4 +1,4 @@
-package com.ccw.lease.api;
+package com.ccw.lease;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
